@@ -1,0 +1,429 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  color: black;
+}
+
+.container-nav {
+  font-weight: bold;
+  font-size: 18px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.649);
+}
+.ct-nav-content {
+  padding: 0 20px;
+}
+
+ul {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+
+/*sliderbox-------------------------------------------------------*/
+
+.ct-sliderbox {
+  position: relative;
+  width: 100%;
+  display: flex;
+  height: 560px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.ct-sliderbox button {
+  position: absolute;
+  width: 100px;
+}
+#ct-bt1 {
+  bottom: 50%;
+  left: 0;
+}
+#ct-bt2 {
+  bottom: 50%;
+  right: 0;
+}
+
+.ct-sliderbox-content1 h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.ct-sliderbox-content1 p {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.ct-sliderbox-content1 button {
+  font-size: 15px;
+  margin: 30px 0;
+  padding: 5px 0;
+  width: 100px;
+  color: white;
+  background-color: rgba(240, 255, 255, 0);
+  border: solid 1px white;
+  border-radius: 20px;
+}
+.slider-bt {
+  appearance: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/*MAIN----------------------------------*/
+
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+#main-txtbox {
+  display: flex;
+  justify-content: space-between;
+}
+.main-txt {
+  padding: 10px 0;
+}
+
+main h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main-content-box {
+  width: 380px;
+  height: 300px;
+  padding: 30px 0;
+}
+
+.main-content-box a span {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.main-content-box a img {
+  width: 100%;
+  height: 200px;
+  object-fit: fill;
+  border-radius: 20px;
+}
+
+.main-contentbox2 {
+  width: 100%;
+  border: 1px rgba(128, 128, 128, 0.226) solid;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 100px;
+}
+.main-ctbx2item {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+#main-ctbx2item-txtbox1 {
+  width: 50%;
+  line-height: 40px;
+}
+
+.main-ctbx2item img {
+  width: 100%;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main-container3 {
+  margin: 10px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.main-ct3item {
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.32);
+  padding: 60px 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.main-ct3item img {
+  padding-bottom: 20px;
+  width: 4vw;
+}
+
+.main-container4 {
+  position: relative;
+  background-color: rgb(209, 251, 251);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.main-container4 button {
+  margin: 10px 0;
+  background-color: transparent;
+  border: solid 2px rgba(0, 0, 255, 0.528);
+  border-radius: 50px;
+  font-size: 20px;
+  color: rgba(0, 0, 255, 0.441);
+  padding: 20px 20px;
+}
+.main-container4 img {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+}
+
+/*footer-----------------------------------*/
+.footer-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.footer-txt {
+  margin: 0 20px;
+}
+
+@media screen and (min-width: 2200px) and (max-width: 3300px) {
+  .main-container {
+    width: 52%;
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2199px) {
+  .main-container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .main-container {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .container-nav {
+    font-size: 12px;
+  }
+  .ct-sliderbox-content1 h1 {
+    font-size: 20px;
+  }
+  .ct-sliderbox-content1 p {
+    font-size: 10px;
+  }
+  .ct-sliderbox-content1 button {
+    font-size: 7px;
+  }
+  #slider-img {
+    width: 200px;
+  }
+
+  #main-txtbox {
+    font-size: 12px;
+  }
+  main h1 {
+    font-size: 26px;
+  }
+  .main-content-box a span {
+    font-size: 15px;
+  }
+
+  .main-contentbox2 {
+    justify-content: center;
+  }
+
+  .main-ctbx2item:nth-child(1) {
+    display: none;
+  }
+  .main-ctbx2item img {
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .main-container3 {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .main-ct3item {
+    width: 90%;
+  }
+  .main-ct3item img {
+    width: 10vw;
+  }
+
+  .main-container4 {
+    font-size: 25px;
+  }
+  .main-container4 button {
+    font-size: 15px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+
+    font-size: 12px;
+  }
+  .footer-txt {
+    padding-bottom: 5px;
+  }
+}

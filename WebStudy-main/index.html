@@ -1,0 +1,163 @@
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dev Inn.</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container-nav">
+          <div>
+            <span class="ct-nav-content">Dev.Inn</span>
+          </div>
+          <div>
+            <ul>
+              <li class="ct-nav-content">Tech</li>
+              <li class="ct-nav-content">Blog</li>
+              <li class="ct-nav-content">Events</li>
+              <li class="ct-nav-content">Challengers</li>
+              <li class="ct-nav-content">Careers</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ct-sliderbox" id="ct-sliderboxid">
+          <div class="ct-sliderbox-content1">
+            <h1 id="slider-h1">제 3회 ABC Meetup<br />Tech Con</h1>
+            <p id="slider-p">
+              디지털 대전환 시대의 일하는 방식'에 대한 이야기를 나눕니다.
+            </p>
+            <button id="slider-bt">자세히보기</button>
+          </div>
+          <div class="ct-sliderbox-content2">
+            <img
+              id="slider-img"
+              src="https://devinn.dev/@resource/images/index/kivi-techcon.svg"
+              alt=""
+            />
+          </div>
+          <button class="slider-bt" onclick="leftClick()" id="ct-bt1">
+            ⬅️
+          </button>
+          <button class="slider-bt" onclick="rightClick()" id="ct-bt2">
+            ➡️
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="main-container">
+        <h1 class="main-txt">Featured Posts</h1>
+        <div id="main-txtbox" class="main-txt">
+          <span>Dev.Inn에서 여러가지 개발소식과 IT소식을 알려드립니다.</span>
+          <a href="#">더보기</a>
+        </div>
+        <div class="main-content">
+            <div class="main-content-box">
+                <a href="#">
+                    <img src="https://devinn.dev/@upload/blog/main/202207250950242331850b-1e86-44d5-9784-07e5d6f85001.jpg" alt="">
+                    <h1>[Review] 제 3회 세계문화산업포럼(WCIF) 방문기</h1>
+                    <span>안녕하세요 지난 6일~7일 진행된 제 3회 세계문화산업포럼(WCIF)에 다녀왔습니다! 이번 포럼은 ‘THE ERA of METAVERSE: Music and Entertainment’를 주제로 메타버스 세계에서의 새로운 비전과 기회에 관해 함께 논의하는 자리였는데요. AI와 NFT 등 차세대 기술이 다양한 문화산업에 실제로 활용되는 사례를 쇼케이스로 볼 수 있었어요.</span>
+                </a>
+            </div>
+            <div class="main-content-box">
+              <a href="#">
+                  <img src="https://devinn.dev/@upload/blog/main/202207250950242331850b-1e86-44d5-9784-07e5d6f85001.jpg" alt="">
+                  <h1>[Review] 제 3회 세계문화산업포럼(WCIF) 방문기</h1>
+                  <span>안녕하세요 지난 6일~7일 진행된 제 3회 세계문화산업포럼(WCIF)에 다녀왔습니다! 이번 포럼은 ‘THE ERA of METAVERSE: Music and Entertainment’를 주제로 메타버스 세계에서의 새로운 비전과 기회에 관해 함께 논의하는 자리였는데요. AI와 NFT 등 차세대 기술이 다양한 문화산업에 실제로 활용되는 사례를 쇼케이스로 볼 수 있었어요.</span>
+              </a>
+          </div>
+          <div class="main-content-box">
+            <a href="#">
+                <img src="https://devinn.dev/@upload/blog/main/202207250950242331850b-1e86-44d5-9784-07e5d6f85001.jpg" alt="">
+                <h1>[Review] 제 3회 세계문화산업포럼(WCIF) 방문기</h1>
+                <span>안녕하세요 지난 6일~7일 진행된 제 3회 세계문화산업포럼(WCIF)에 다녀왔습니다! 이번 포럼은 ‘THE ERA of METAVERSE: Music and Entertainment’를 주제로 메타버스 세계에서의 새로운 비전과 기회에 관해 함께 논의하는 자리였는데요. AI와 NFT 등 차세대 기술이 다양한 문화산업에 실제로 활용되는 사례를 쇼케이스로 볼 수 있었어요.</span>
+            </a>
+        </div>
+        <div class="main-content-box">
+          <a href="#">
+              <img src="https://devinn.dev/@upload/blog/main/202207250950242331850b-1e86-44d5-9784-07e5d6f85001.jpg" alt="">
+              <h1>[Review] 제 3회 세계문화산업포럼(WCIF) 방문기</h1>
+              <span>안녕하세요 지난 6일~7일 진행된 제 3회 세계문화산업포럼(WCIF)에 다녀왔습니다! 이번 포럼은 ‘THE ERA of METAVERSE: Music and Entertainment’를 주제로 메타버스 세계에서의 새로운 비전과 기회에 관해 함께 논의하는 자리였는데요. AI와 NFT 등 차세대 기술이 다양한 문화산업에 실제로 활용되는 사례를 쇼케이스로 볼 수 있었어요.</span>
+          </a>
+      </div>
+      <div class="main-content-box">
+        <a href="#">
+            <img src="https://devinn.dev/@upload/blog/main/202207250950242331850b-1e86-44d5-9784-07e5d6f85001.jpg" alt="">
+            <h1>[Review] 제 3회 세계문화산업포럼(WCIF) 방문기</h1>
+            <span>안녕하세요 지난 6일~7일 진행된 제 3회 세계문화산업포럼(WCIF)에 다녀왔습니다! 이번 포럼은 ‘THE ERA of METAVERSE: Music and Entertainment’를 주제로 메타버스 세계에서의 새로운 비전과 기회에 관해 함께 논의하는 자리였는데요. AI와 NFT 등 차세대 기술이 다양한 문화산업에 실제로 활용되는 사례를 쇼케이스로 볼 수 있었어요.</span>
+        </a>
+    </div>
+    <div class="main-content-box">
+      <a href="#">
+          <img src="https://devinn.dev/@upload/blog/main/202207250950242331850b-1e86-44d5-9784-07e5d6f85001.jpg" alt="">
+          <h1>[Review] 제 3회 세계문화산업포럼(WCIF) 방문기</h1>
+          <span>안녕하세요 지난 6일~7일 진행된 제 3회 세계문화산업포럼(WCIF)에 다녀왔습니다! 이번 포럼은 ‘THE ERA of METAVERSE: Music and Entertainment’를 주제로 메타버스 세계에서의 새로운 비전과 기회에 관해 함께 논의하는 자리였는데요. AI와 NFT 등 차세대 기술이 다양한 문화산업에 실제로 활용되는 사례를 쇼케이스로 볼 수 있었어요.</span>
+      </a>
+  </div>
+        </div>
+      </div>
+      <div class="main-container">
+        <h1 class="main-txt"><br><br><br>Latest Event</h1>
+        <div id="main-txtbox" class="main-txt">
+          <span>Dev.Inn에서 대내외 개발자들이 함께 성장하고 소통하기 위한 장을 마련합니다.</span>
+        </div>
+        <div class="main-contentbox2">
+          <div class="main-ctbx2item">
+            <div id="main-ctbx2item-txtbox1">
+              <h1>
+                제3회 ABC: Meetup: <br>TechCon
+              </h1>
+              <p>2022.07.22(금) 15:00₩18:00</p>
+            </div>
+            <div>
+              <span>‘디지털 대전환 시대의 일하는 방식’이라는 주제로 제3회 ABCMeet up을 개최합니다. DevOps 전환 사례, LowCode 및 NoCode 시민개발자의 일하는 방식 등 다양한 내용으로 구성하였습니다.</span>
+            </div>
+          </div>
+          <div class="main-ctbx2item">
+            <img src="https://devinn.dev/@resource/images/index/thumb_event_01.png" alt="">
+          </div>
+        </div>
+        <h1 class="main-txt">About Dev.Inn</h1>
+        <div id="main-txtbox" class="main-txt">
+          <span>Dev.Inn은 대내외 개발자들이 함께 소통하고 성장하는 개발 문화에<br>
+            기여하기 위해 지식과 기술을 적극적으로 공유하는 CJ올리브네트웍스의 개발자 커뮤니티입니다.</span>
+        </div>
+        <div class="main-container3">
+          <div class="main-ct3item">
+            <img src="data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='56px' height='56px' viewBox='0 0 56 56' style='enable-background:new 0 0 56 56;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill-rule:evenodd;clip-rule:evenodd;fill:%23B3B3B3;%7D .st1%7Bfill-rule:evenodd;clip-rule:evenodd;%7D .st2%7Bfill:none;stroke:%2306C856;stroke-width:2;%7D%0A%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M19,1L19,1c1,0,1.8,0.8,1.8,1.8v50.4c0,1-0.8,1.8-1.8,1.8h0c-1,0-1.8-0.8-1.8-1.8V2.8C17.2,1.8,18,1,19,1z'/%3E%3Cpath class='st0' d='M1,19L1,19c0-1,0.8-1.8,1.8-1.8h50.4c1,0,1.8,0.8,1.8,1.8v0c0,1-0.8,1.8-1.8,1.8H2.8C1.8,20.8,1,20,1,19z'/%3E%3Cpath class='st0' d='M1,28L1,28c0-1,0.8-1.8,1.8-1.8h50.4c1,0,1.8,0.8,1.8,1.8v0c0,1-0.8,1.8-1.8,1.8H2.8C1.8,29.8,1,29,1,28z'/%3E%3Cpath class='st0' d='M1,37L1,37c0-1,0.8-1.8,1.8-1.8h50.4c1,0,1.8,0.8,1.8,1.8l0,0c0,1-0.8,1.8-1.8,1.8H2.8C1.8,38.8,1,38,1,37z'/%3E%3Cpath class='st0' d='M28,1L28,1c1,0,1.8,0.8,1.8,1.8v50.4c0,1-0.8,1.8-1.8,1.8h0c-1,0-1.8-0.8-1.8-1.8V2.8C26.2,1.8,27,1,28,1z'/%3E%3Cpath class='st0' d='M37,1L37,1c1,0,1.8,0.8,1.8,1.8v50.4c0,1-0.8,1.8-1.8,1.8l0,0c-1,0-1.8-0.8-1.8-1.8V2.8C35.2,1.8,36,1,37,1z' /%3E%3Cpath class='st1' d='M12.7,8.2h30.6c2.5,0,4.5,2,4.5,4.5v30.6c0,2.5-2,4.5-4.5,4.5H12.7c-2.5,0-4.5-2-4.5-4.5V12.7 C8.2,10.2,10.2,8.2,12.7,8.2z'/%3E%3Cpath class='st2' d='M35.7,17.3c0.7,0,1.4,0.3,1.8,0.8c0.5,0.5,0.8,1.1,0.8,1.8v15.8c0,0.7-0.3,1.4-0.8,1.8 c-0.5,0.5-1.1,0.8-1.8,0.8H19.9c-0.7,0-1.4-0.3-1.8-0.8c-0.5-0.5-0.8-1.1-0.8-1.8V19.9c0-0.7,0.3-1.4,0.8-1.8 c0.5-0.5,1.1-0.8,1.8-0.8L35.7,17.3z'/%3E%3C/g%3E%3C/svg%3E" alt="">
+            <h1>Tech</h1>
+            <span>기술을 공유하고 발전시키기 위한 기술 체험 공간입니다. 챌린저스가 만들어가는 Product와 기술을 공유합니다.</span>
+          </div>
+          <div class="main-ct3item">
+            <img src="data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='56px' height='56px' viewBox='0 0 56 56' style='enable-background:new 0 0 56 56;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill-rule:evenodd;clip-rule:evenodd;%7D .st1%7Bfill:none;stroke:%23FF5A00;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;%7D%0A%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M48,46.5c0,2.5-2,4.5-4.5,4.5h-31C10,51,8,49,8,46.5V23h40V46.5z M8,15.5C8,13,10,11,12.5,11h31 c2.5,0,4.5,2,4.5,4.5V21H8V15.5z'/%3E%3Cpath class='st0' d='M16.5,5L16.5,5C17.9,5,19,6.1,19,7.5v7c0,1.4-1.1,2.5-2.5,2.5l0,0c-1.4,0-2.5-1.1-2.5-2.5v-7 C14,6.1,15.1,5,16.5,5z'/%3E%3Cpath class='st0' d='M39.5,5L39.5,5C40.9,5,42,6.1,42,7.5v7c0,1.4-1.1,2.5-2.5,2.5l0,0c-1.4,0-2.5-1.1-2.5-2.5v-7 C37,6.1,38.1,5,39.5,5z'/%3E%3Cpath class='st1' d='M19.8,36.1l4.7,4.9l10.8-10.8'/%3E%3C/g%3E%3C/svg%3E" alt="">
+            <h1>Tech</h1>
+            <span>CJ올리브네트웍스가 주최하는 Meetup 및 대내외 개발자 행사 소식을 전합니다. 개발자들이 함께 할 수 있는 커뮤니티 형성을 지원합니다.</span>
+          </div>
+          <div class="main-ct3item">
+            <img src="data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='56px' height='56px' viewBox='0 0 56 56' style='enable-background:new 0 0 56 56;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill-rule:evenodd;clip-rule:evenodd;%7D .st1%7Bfill:none;stroke:%23FEC701;stroke-width:3;stroke-linecap:round;%7D%0A%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M8,17.5C8,10,14,4,21.5,4h13C42,4,48,10,48,17.5v13C48,38,42,44,34.5,44h-13c-0.2,0-0.4,0-0.5,0h-2.3l-9,7.6 C9.3,51.9,9,52,8.6,51.8S8,51.3,8,50.7V17.5z'/%3E%3Cpath class='st1' d='M19,16.5h19 M19,23.5h19 M19,30.5h11.5'/%3E%3C/g%3E%3C/svg%3E" alt="">
+            <h1>Tech</h1>
+            <span>CJ올리브네트웍스의 문화와 기술 이야기, 챌린저스의 솔직한 생각과 경험을 통해 공유합니다.</span>
+          </div>
+        </div>
+
+        <div class="main-container4">
+          <p>Will you be the challengers?</p>
+          <p>더 나은 나를 만나는 시간</p>
+          <Button>채용공고 보러가기</Button>
+          <img src="https://devinn.dev/@resource/images/index/career-img-l.svg" alt="">
+        </div>
+    </main>
+    <script src="./script.js"></script>
+    <footer>
+      <div class="footer-container">
+        <span class="footer-txt">© CJ OLIVENETWORKS. All Rights Reserved.</span>
+        <a class="footer-txt" href="#">이메일주소 무단수집 거부</a>
+        <a class="footer-txt" href="법적고지"></a>
+        <a class="footer-txt" href="#">Connet with Us+</a>
+      </div>
+    </footer>
+  </body>
+</html>
